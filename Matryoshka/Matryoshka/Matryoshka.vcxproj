@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="Matryoshka.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Матрешка.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

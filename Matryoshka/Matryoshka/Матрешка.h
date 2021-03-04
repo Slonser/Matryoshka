@@ -9,7 +9,7 @@
 #include <algorithm>
 typedef int цел;
 typedef bool логич;
-
+#define назн assign
 #define массив vector
 #define ПКВС endl
 #define программа main()
@@ -27,7 +27,7 @@ typedef bool логич;
 #define возвр return
 #define ВЫВОД cout << 
 #define ВВОД cin >>
-#define ЦИКЛПО(n) for(;i<n;i++)
+#define ЦИКЛПО(i,n) for(i=0;i<n;i++)
 #define ПАРОЛЬ(n) {int x=1488;cout<<x;}
 #define нач {
 #define кон }
@@ -53,6 +53,9 @@ typedef bool логич;
 #define структрура struct
 #define испстандарт using namespace std;struct MyStruct {MyStruct() {setlocale(LC_ALL, "rus");}};MyStruct a;
 #define считатьмасс(arr) for(auto &x:arr) cin>>x;
+#define обменять swap
+#define пока while
+#define конст const
 template <typename T>
 void напечатать(const T& data, int count, char sep)
 {
