@@ -1,6 +1,15 @@
 #pragma once
 
+typedef int цел;
+typedef long long int длин;
+typedef long double дроб;
+typedef bool логич;
+typedef char симв;
+typedef std::string строка;
+
 #define испстандарт using namespace std;struct MyStruct {MyStruct() {setlocale(LC_ALL, "rus");}};MyStruct a;
+#define использовать using
+#define пространство namespace
 #define программа int main()
 #define нач {
 #define кон }
@@ -33,6 +42,8 @@
 #define ИЛИ ||
 #define И &&
 #define ИСКЛИЛИ ^
+
+#define поссылке &
 
 #define обменять(a, b) swap(a, b)
 

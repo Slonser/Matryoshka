@@ -1,0 +1,38 @@
+
+#define использовать using
+#define пространство namespace
+#define программа int main()
+#define нач {
+#define кон }
+#define процедура void
+#define если if
+#define иначе else
+#define авто auto
+#define для for
+#define пока while
+#define пост const
+#define возвр return
+#define структрура struct
+
+#define ВЫВОД cout << 
+#define ВВОД cin >>
+#define ДОБАВИТЬИЗ <<
+#define ДОБАВИТЬВ >>
+#define ПКВС endl
+
+#define МЕНЬШ <
+#define БОЛЬШ >
+#define МЕНЬШРАВН <=
+#define БОЛЬШРАВН >=
+#define РАВН ==
+#define НЕРАВН !=
+#define ЛОЖЬ false
+#define ИСТИНА true
+#define НЕ !
+#define ИЛИ ||
+#define И &&
+#define ИСКЛИЛИ ^
+
+#define поссылке &
+
+#define типа(T) <T>

@@ -24,6 +24,12 @@
     <ClInclude Include="Матрешка.h" />
     <ClInclude Include="стандбиблиотеки.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Пивас.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Matryoshka\cpp.hint" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
